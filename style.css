@@ -1,0 +1,179 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    width: 1440px;
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 25px;
+    padding: 2% 2%;
+    color: hsl(33, 100%, 98%);
+}
+
+header h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+header h2{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+header img{
+    grid-row: span 2;
+    height: 80%;
+    justify-self: end;
+}
+
+main{
+    width: 40%;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 25px;
+    padding: 2% 2%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    color: hsl(25, 47%, 15%);
+    padding-bottom: 5%;
+    border-bottom: solid 1px hsl(28, 10%, 53%);
+}
+
+.s1 h3{
+    grid-column: span 7;
+    font-size: 40px;
+    margin: 0;
+}
+
+.s1 div{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.s1 div p{
+    border-radius: 10px;
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(33, 100%, 98%);
+    width: 100%;
+    margin-bottom: 10%;
+    display: none;
+    padding: 10% 0;
+}
+
+.s1 div span p{
+    margin: 10% 0;
+}
+
+.s1 div button{
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    color: hsl(10, 79%, 65%);
+}
+
+.s1 div h4{
+    color: hsl(28, 10%, 53%);
+    font-weight: 400;
+}
+
+.mon button{
+    height: 17.45%;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.tue button{
+    height: 34.91%;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.wed button{
+    height: 52.36%;
+    background-color: hsl(186, 34%, 60%);
+}
+
+.thu button{
+    height: 31.07%;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.fri button{
+    height: 23.39%;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.sat button{
+    height: 43.28%;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.sun button{
+    height: 25.48%;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.s1 div:hover > button{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.s1 div:hover > p{
+    display: block;
+}
+
+.s2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: hsl(25, 47%, 15%);
+    margin-top: 10%;
+}
+
+.s2 h4{
+    grid-column: span 2;
+    color: hsl(28, 10%, 53%);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.s2 h5{
+    margin: 0;
+    grid-row: span 2;
+    font-size: 50px;
+}
+
+.s2 h6{
+    margin: 0;
+    font-size: 20px;
+    text-align: end;
+}
+
+.s2 p{
+    color: hsl(28, 10%, 53%);
+    font-weight: 400;
+    margin: 0;
+    font-size: 15px;
+    text-align: end;
+}
