@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0;
-    padding: 5%;
+    padding: 5% 0;
 }
 
 header{
@@ -182,6 +182,7 @@ main{
 @media (max-width: 375px){
     body{
         width: 375px;
+        padding: 5%;
     }
 
     header{
