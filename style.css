@@ -99,37 +99,30 @@ main{
 }
 
 .mon button{
-    height: 17.45%;
     background-color: hsl(10, 79%, 65%);
 }
 
 .tue button{
-    height: 34.91%;
     background-color: hsl(10, 79%, 65%);
 }
 
 .wed button{
-    height: 52.36%;
     background-color: hsl(186, 34%, 60%);
 }
 
 .thu button{
-    height: 31.07%;
     background-color: hsl(10, 79%, 65%);
 }
 
 .fri button{
-    height: 23.39%;
     background-color: hsl(10, 79%, 65%);
 }
 
 .sat button{
-    height: 43.28%;
     background-color: hsl(10, 79%, 65%);
 }
 
 .sun button{
-    height: 25.48%;
     background-color: hsl(10, 79%, 65%);
 }
 
